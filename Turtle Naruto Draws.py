@@ -426,8 +426,8 @@ draw.end_fill()
 # Text drawing
 lemus.penup()
 lemus.goto(-150,150)
-lemus.write('Uzumaki Naruto This - うずまきナルト', font=("Among Us" 14, "normal"))
-lemus.goto(-150,140)
-lemus.write('By Sendy')
+lemus.write('Uzumaki Naruto This - うずまきナルト', font=("Time", 14, "normal"))
+lemus.goto(-150,130)
+lemus.write('By Sendy',  font=("Time", 13, "normal"))
 
 turtle.done()
